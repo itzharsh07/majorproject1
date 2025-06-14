@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Politics</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #e60000;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #b30000;
+    }
+
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Parliament_House_of_India.jpg/1920px-Parliament_House_of_India.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #cc0000;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #e60000;
+      padding-bottom: 5px;
+    }
+
+    .section p {
+      margin-bottom: 10px;
+    }
+
+    .parties ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2em;
+        text-align: center;
+        padding: 0 10px;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #b30000;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Indian Politics</h1>
+    <p>Understanding the Heart of the World's Largest Democracy</p>
+  </header>
+
+  <nav>
+    <a href="#history">History</a>
+    <a href="#parties">Parties</a>
+    <a href="#current">Current Affairs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Voice of the Nation</h1>
+  </section>
+
+  <div class="container">
+    <section class="section" id="history">
+      <h2>History of Indian Politics</h2>
+      <p>India gained independence in 1947 and adopted its constitution in 1950, establishing a parliamentary system of government.</p>
+      <p>Major political transformations occurred during the Nehruvian era, Emergency period, Liberalization in the 1990s, and the rise of regional parties.</p>
+    </section>
+
+    <section class="section parties" id="parties">
+      <h2>Major Political Parties</h2>
+      <ul>
+        <li>Bharatiya Janata Party (BJP)</li>
+        <li>Indian National Congress (INC)</li>
+        <li>Aam Aadmi Party (AAP)</li>
+        <li>Trinamool Congress (TMC)</li>
+        <li>Communist Party of India (CPI)</li>
+      </ul>
+    </section>
+
+    <section class="section" id="current">
+      <h2>Current Political Landscape</h2>
+      <p>As of 2025, BJP leads the central government with Narendra Modi as the Prime Minister.</p>
+      <p>Opposition parties are strategizing for upcoming general elections amid rising debates on economy, education, and national security.</p>
+    </section>
+  </div>
+
+  <footer id="contact">
+    <p>Designed by ChatGPT | © 2025 IndianPolitics.com</p>
+  </footer>
+
+</body>
+</html>
